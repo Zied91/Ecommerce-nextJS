@@ -10,7 +10,7 @@ const indexSameProduct = (state, action) => {
 };
 
 export const cartSlice = createSlice({
-  name: "counter",
+  name: "cart",
   initialState: {
     cartItems: [],
   },
